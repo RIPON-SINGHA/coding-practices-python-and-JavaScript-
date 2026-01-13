@@ -9,7 +9,6 @@ result = sum_upto(n)
 print(result)
 
 
-
 # ans = 0
 # for i in range (1,6):
 #     ans = ans + i
