@@ -25,5 +25,4 @@ def calculate(num1, num2, operator):
             return None
     
 
-
 main()
