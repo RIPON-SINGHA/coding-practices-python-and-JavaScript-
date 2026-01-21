@@ -76,4 +76,28 @@ for i in range(1,6):
         
 
 
+#DIAMOND PATTERN 
+len = 9
+mid = len // 2 
+
+for i in range(0, mid + 1):
+    for j in range(mid - i):
+        print(" ", end = "")
+    for k in range(i + (i + 1)):
+        print("*", end = "")
+    print()
+
+for i in range(mid + 1, len):
+    for j in range(i - mid):
+        print(" ", end = "")
+    for k in range(len - 2*(i - mid)):
+        print("*", end = "")
+
+    print()
+
+
+
+
+
+
 # MORE PATTERNS TO COME LATER
