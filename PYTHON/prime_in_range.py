@@ -6,7 +6,7 @@ def main():
     number = int(input("Enter your range: "))
     rangePrime(number)
 
-def isPrime(n): 
+def isPrime(n):
     if n <= 1: 
         return False
     elif n == 2:
